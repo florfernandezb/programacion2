@@ -1,0 +1,11 @@
+Carrera: Diseño y programación web
+Materia: Programación 2
+Cuatrimestre: 3
+Año: 2021
+Comisión: DWN3A
+Apellido alumna 1: Fernández Bugna
+Nombre alumna 1: Florencia
+Apellido alumna 2: Jaureguialzo
+Nombre alumna 2: Manuela
+Docente: Gallino, Santiago
+Carácter: 1er parcial
