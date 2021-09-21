@@ -6,10 +6,7 @@ $productList = getProductListFromJson();
 ?>
 <main class="main-content" id="content">
     <section class="container">
-        <h1>Últimas Noticias</h1>
-
-        <p>¡Encontrá todas las últimas novedades de la mejor liga de basket del planeta!</p>
-
+        <h1>Conocé nuestros productos</h1>
         <div class="noticias-list">
         <?php
         foreach($productList as $product): ?>
@@ -22,7 +19,6 @@ $productList = getProductListFromJson();
             <div class="noticias-item_content">
                 <h2><?= $product->getName();?></h2>
                 <p><?= $product->getPrice();?></p>
-                <!-- <p><?= $product->getColors();?></p> -->
             </div>
             <picture class="noticias-item_imagen">
                 <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">

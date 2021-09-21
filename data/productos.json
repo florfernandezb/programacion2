@@ -4,7 +4,6 @@
         "name": "Bowl Kekko",
         "price": 780,
         "category": "bowls",
-        "colors": ["Beige Piedra y Negro", "Blanco Piedra y Beige Piedra", "Blanco Piedra y Negro"],
         "productDescription": "Bowl Kekko \nMedidas: 16,5 de diámetro por 5,5 cm de alto (pueden variar por ser productos hechos a mano). \n*Cada pieza que hago es única e irrepetible en su esmaltado. Los colores combinados pueden ser similares, pero nunca van a ser iguales. Esa es la magia! \nApta para horno a gas, horno electrico y microondas.",
         "image": "bowlKekkoBlancoNegro.png",
         "imageDescription": "bowlKekkoBlancoNegro"
@@ -14,7 +13,6 @@
         "name": "Bowl Kekko",
         "price": 780,
         "category": "tazas",
-        "colors": ["Beige Piedra y Negro", "Blanco Piedra y Beige Piedra", "Blanco Piedra y Negro"],
         "productDescription": "Bowl Kekko \nMedidas: 16,5 de diámetro por 5,5 cm de alto (pueden variar por ser productos hechos a mano). \n*Cada pieza que hago es única e irrepetible en su esmaltado. Los colores combinados pueden ser similares, pero nunca van a ser iguales. Esa es la magia! \nApta para horno a gas, horno electrico y microondas.",
         "image": "tazaBarnaBeige.png",
         "imageDescription": "tazaBarnaBeige"
@@ -24,7 +22,6 @@
         "name": "Fuente Kekko",
         "price": 1400,
         "category": "fuentes",
-        "colors": ["Beige Piedra y Negro", "Blanco Piedra y Beige Piedra", "Blanco Piedra y Negro"],
         "productDescription": "Fuente/Plato Kekko. \n Medidas: 23 de diámetro por 4 cm de alto (pueden variar por ser productos hechos a mano). \n *Cada pieza que hago es única e irrepetible en su esmaltado. Los colores combinados pueden ser similares, pero nunca van a ser iguales. Esa es la magia! \n Apta para horno a gas, horno electrico y microondas.",
         "image": "fuenteKekkoNegroBlanco.png",
         "imageDescription": "fuenteKekkoNegroBlanco"
@@ -34,7 +31,6 @@
         "name": "Bowl Mateo",
         "price": 980,
         "category": "bowls",
-        "colors": ["Blanco Piedra", "Blanco Piedra y Beige Piedra", "Blanco Piedra y Negro"],
         "productDescription": "Fuente Mateo \n Medidas: 16,5 de diámetro por 5,5 de alto (pueden variar por ser productos hechos a mano). \n *Cada pieza que hago es única e irrepetible en su esmaltado. Los colores combinados pueden ser similares, pero nunca van a ser iguales. Esa es la magia!\n Apta para horno a gas, horno electrico y microondas.",
         "image": "bowlMateoBlancoNegro.png",
         "imageDescription": "bowlMateoBlancoNegro"
@@ -44,7 +40,6 @@
         "name": "Taza Laura",
         "price": 700,
         "category": "tazas",
-        "colors": ["Beige Piedra y Negro", "Blanco Piedra y Beige Piedra", "Blanco Piedra y Gris", "Blanco Piedra y Negro"],
         "productDescription": "Fuente Mateo \n Medidas: 16,5 de diámetro por 5,5 de alto (pueden variar por ser productos hechos a mano). \n *Cada pieza que hago es única e irrepetible en su esmaltado. Los colores combinados pueden ser similares, pero nunca van a ser iguales. Esa es la magia!\n Apta para horno a gas, horno electrico y microondas.",
         "image": "tazaLauraNegro.png",
         "imageDescription": "tazaLauraNegro"
@@ -53,7 +48,6 @@
         "id": 5,
         "name": "Fuente Meneca",
         "price": 2200,
-        "colores": ["Beige Piedra y Negro", "Blanco Piedra y Beige Piedra", "Blanco Piedra y Negro"],
         "category": "mate",
         "productDescription": "Fuente Meneca \nMedidas: 24 de diámetro por 6 cm de alto (pueden variar por ser productos hechos a mano). \n*Cada pieza que hago es única e irrepetible en su esmaltado. Los colores combinados pueden ser similares, pero nunca van a ser iguales. Esa es la magia! \nApta para horno a gas, horno electrico y microondas.",
         "image": "mateMarthaBlanco.png",

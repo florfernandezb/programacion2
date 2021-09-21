@@ -90,33 +90,6 @@
         $this->category = $category;
     }
 
-    // Colors's getter and setter
-    /**
-     * @return array
-     */
-    public function getColors(): array
-    {
-        return $this->colors;
-    }
-    /**
-     * @param array $colors
-     */
-    public function setColors($colors): void
-    {
-        $productColors = array();
-        
-        // print_r($colors);
-        // echo "</br> SETTER </br></br>";
-
-        foreach($colors as $color) {
-            for($i = 0; $i <= count($colors); $i++) {
-                $productColors[$i] = $color;
-            }
-        }
-
-        $this->colors = $productColors;
-    }
-
     // Product Description's getter and setter
     /**
      * @return string
@@ -170,12 +143,6 @@
         $this->setName($data['name']);
         $this->setPrice($data['price']);
         $this->setCategory($data['category']);
-
-        // print_r($data['colors']);
-        // echo "</br> PARSEDATAFROMARRAY </br>";
-
-        $this->setColors($data['colors']);
-        
         $this->setProductDescription($data['productDescription']);
         $this->setImage($data['image']);
         $this->setImageDescription($data['imageDescription']);

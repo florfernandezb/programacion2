@@ -17,7 +17,7 @@ if(!isset($routes[$view])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hecho por Vicki <?= $routes[$view]['title'];?></title>
+    <title><?= $routes[$view]['title'];?></title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>

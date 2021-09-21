@@ -2,11 +2,12 @@
 /**
  * Obtiene todas los productos.
  *
- * @return Producto[]
+ * @return Product[]
  */
 function getProductListFromJson(): array {
     $filename       = __DIR__ . '/../data/productos.json';
     $json           = file_get_contents($filename);
+    // json_decode Convierte un string codificado en JSON a una variable de PHP.
     $productList   = json_decode($json, true);
 
     $products = [];
@@ -20,6 +21,12 @@ function getProductListFromJson(): array {
     return $products;
 }
 
+
+/**
+ * Obtiene un producto.
+ *
+ * @return Product
+ */
 function getProductId(int $id): ?Product {
     $productList = getProductListFromJson();
 
@@ -28,7 +35,6 @@ function getProductId(int $id): ?Product {
             return $product;
         }
     }
-
     return null;
 }
 
