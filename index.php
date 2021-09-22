@@ -32,8 +32,7 @@ if(!isset($routes[$view])) {
             <ul>
                 <li><a href="index.php?s=home">Home</a></li>
                 <li><a href="index.php?s=productList">Productos</a></li>
-                <!-- <li><a href="index.php?s=iniciar-sesion">Iniciar Sesión</a></li>
-                <li><a href="index.php?s=registro">Registrarse</a></li> -->
+                <li><a href="index.php?s=formContacto">Contacto</a></li>
             </ul>
         </div>
     </nav>
