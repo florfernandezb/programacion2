@@ -28,14 +28,19 @@ if(!isset($routes[$view])) {
     <div class="visually-hidden">
         <a href="#content">Saltar al contenido</a>
     </div>
-    <header class="row">
-        <h1 class="col-7">Hecho por Vicki</h1>
-
-        <nav class="col-3">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="index.php?s=home">Home</a></li>
-                <li class="nav-item"><a href="index.php?s=productList">Productos</a></li>
-            </ul>
+    <header >
+        <div class="divLogo">
+            <h1 class="navbar-brand"><a href="index.php?s=home">Hecho por Vicki</a></h1>
+        </div>
+        
+        <nav  id="navv">
+            <div class="container-flex">            
+                <ul >
+                    <li ><a  href="index.php?s=home">Home</a></li>
+                    <li ><a  href="index.php?s=productList">Productos</a></li>
+                    <li ><a  href="index.php?s=formContacto">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <?php

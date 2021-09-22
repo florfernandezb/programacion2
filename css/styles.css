@@ -17,18 +17,15 @@
     box-sizing: border-box;
 }
 
-/* body {
-    width: 1200px;
-    margin: auto;
-} */
+body {
+    width: 100%;
+}
 
 #product-list div {
     width: 100%;
 }
 
 .product-card {
-    /* max-width: 30%;
-    width: 30%; */
     background-color: rgb(243 206 199 / 70%);
     display: inline-block;
     height: 400px;
@@ -63,18 +60,20 @@ h2 {
     width: 50%;
 }
 
-header h1 {
+header div h1 a{
     height: 80px;
     width: 140px;
-    font-size: 0;
-    margin: 1em;
+    font-size: 0 !important;
     display: inline-block;
-    background-position: 1em;
     background: no-repeat url(../res/logo.png);
 }
 
-nav ul li{
-    display: inline-block;
+.divLog{
+    display: flex;
+}
+
+.navv{
+    display: flex;
 }
 
 

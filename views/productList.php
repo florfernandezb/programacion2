@@ -6,7 +6,7 @@ $productList = getProductListFromJson();
 ?>
 <main>
     <section id="product-list">
-        <h1>Conocé nuestros productos</h1>
+        <h2 class="col-12">Conocé nuestros productos</h2>
         <div class="row align-items-center">
             <?php
                 foreach($productList as $product): 

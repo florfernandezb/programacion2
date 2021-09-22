@@ -14,7 +14,7 @@ function getRoutesSitio() {
         'productDetail' => [
             'title' => 'Detalle del producto',
         ],
-        'form' => [
+        'formContacto' => [
             'title' => 'Contactanos',
         ],
         '404' => [
