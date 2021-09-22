@@ -128,13 +128,15 @@
      */
     public function getImageDescription(): string
     {
-        return $this->imageDescirption;
+
+        return $this->imageDescription;
     }
     /**
-     * @param string $imageDescirption
+     * @param string $imageDescription
      */
     public function setImageDescription(string $imageDescription): void
     {
+        
         $this->imageDescription = $imageDescription;
     }
 

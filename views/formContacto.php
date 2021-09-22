@@ -1,5 +1,5 @@
 <main>
-    <h1>Contactanos</h1>
+    <h2>Contactanos</h2>
     <p>Si tuviste algún problema con tus tesoritos no dudes en contactarnos!</p>
     <form action="" method="get">
         <div class="mb-3">

@@ -18,20 +18,32 @@
 }
 
 body {
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
-#product-list div {
-    width: 100%;
+#product-list {
+    width: 90%;
+    margin: auto;
 }
+
+h2 {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 10px;
+    text-align: center;
+}
+
+/* TODO resolver tema de la altura y imagenes responsive*/
 
 .product-card {
     background-color: rgb(243 206 199 / 70%);
     display: inline-block;
-    height: 400px;
+    width: 100%;
     border-radius: 2em;
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
-    margin: 1em;
+    text-align: center;
+    margin-top: 1em;
 }
 
 .card-content {
@@ -63,18 +75,61 @@ h2 {
 header div h1 a{
     height: 80px;
     width: 140px;
+    margin: auto;
     font-size: 0 !important;
-    display: inline-block;
+    display: block;
     background: no-repeat url(../res/logo.png);
 }
 
-.divLog{
-    display: flex;
+.navbar li{
+    display: inline-block;
+    margin-left: 1em;
+    color: #16001e;
 }
 
-.navv{
-    display: flex;
+.navbar li a{
+    color: #16001e;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.product-card picture img {
+    margin-top: 1.5em;
+}
+
+.card-content p, h3{
+    font-weight: 400;
+}
+
+.see-more {
+    background-color: #16001e;
+    color: #f3cec7;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2em;
 }
 
 
 
+footer {
+    text-align: center;
+    height: 100px;
+    padding: 2em;
+    margin-top: 2em;
+    color: #f3cec7;
+    background-color: #8d524b;
+}
+
+.about p{
+    font-size: 0.9em;
+    color: #8d524b;
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    .about p{
+        width: 80%;
+    }
+  }
