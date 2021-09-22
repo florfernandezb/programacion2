@@ -1,0 +1,81 @@
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    width: 1200px;
+    margin: auto;
+} */
+
+#product-list div {
+    width: 100%;
+}
+
+.product-card {
+    /* max-width: 30%;
+    width: 30%; */
+    background-color: rgb(243 206 199 / 70%);
+    display: inline-block;
+    height: 400px;
+    border-radius: 2em;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+    margin: 1em;
+}
+
+.card-content {
+    width: 280px;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.card-content p {
+    color: #8d524b;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h2 {
+    color: #16001e;
+}
+
+.product-card a {
+    background-color: #16001e;
+    color: #f3cec7;
+    border: none;
+    text-align: center;
+    border-radius: 1em;
+    width: 50%;
+}
+
+header h1 {
+    height: 80px;
+    width: 140px;
+    font-size: 0;
+    margin: 1em;
+    display: inline-block;
+    background-position: 1em;
+    background: no-repeat url(../res/logo.png);
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+
+
