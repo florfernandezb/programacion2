@@ -8,18 +8,16 @@ $productImage = $product->getImage();
 $source = "$productCategory/$productImage"
 ?>
 <main>
-    <div>
-        <article id="product-detail" class="row ">
-            <picture class="col-6 ">
-                <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
-                <img src="<?= './res/'. $source;?>" alt="<?= $product->getImageDescription();?>">
-            </picture>
+    <section id="product-detail" class="productdetails">
+        <picture class="imgprod">
+            <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
+            <img src="<?= './res/'. $source;?>" alt="<?= $product->getImageDescription();?>">
+        </picture>
             
-            <div class="col-6">
-                <h2><?= $product->getName();?></h2>
-                <p>Precio: $<?= $product->getPrice();?></p>
-                <p>Descripcion: <?= $product->getProductDescription();?></p>    
-            </div>
-        </article>
-    </div>
+        <div class="proddetails">
+            <h2><?= $product->getName();?></h2>
+            <p>Precio: $<?= $product->getPrice();?></p>
+            <p>Descripcion: <?= $product->getProductDescription();?></p>    
+        </div>
+    </section>
 </main>

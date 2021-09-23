@@ -45,7 +45,7 @@ if(!isset($routes[$view])) {
     require __DIR__ . '/views/' . $view . '.php';
     ?>
     <footer>
-        <p>Este es un trabajo practico para la escuela Da Vinci</p>
+        <p>Este es un trabajo práctico para la materia Programación II del tercer cuatrimestre de la Escuela Da Vinci</p>
         <p>&copy; Da Vinci - 2021</p>
     </footer>
 </body>

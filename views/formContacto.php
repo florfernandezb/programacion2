@@ -1,7 +1,7 @@
 <main>
     <h2>Contactanos</h2>
-    <p>Si tuviste algún problema con tus tesoritos no dudes en contactarnos!</p>
-    <form action="" method="get">
+    <p>¡Si tuviste algún problema con tus tesoritos no dudes en contactarnos!</p>
+    <form action="index.php?s=gracias" method="post">
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" id="nombre" name="nombre" class="form-control">

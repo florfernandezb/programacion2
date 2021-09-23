@@ -46,6 +46,11 @@ h2 {
     margin-top: 1em;
 }
 
+.product-card picture img {
+    justify-content: center;
+    width: 100%;
+}
+
 .card-content {
     width: 280px;
     margin: auto;
@@ -62,6 +67,8 @@ h2 {
 h2 {
     color: #16001e;
 }
+
+
 
 .product-card a {
     background-color: #16001e;
@@ -93,13 +100,20 @@ header div h1 a{
     text-decoration: none;
 }
 
+.navbar li a:hover {
+    color: #8d524b;
+}
+
 .product-card picture img {
     margin-top: 1.5em;
 }
 
+
 .card-content p, h3{
     font-weight: 400;
 }
+
+
 
 .see-more {
     background-color: #16001e;
@@ -110,26 +124,82 @@ header div h1 a{
     margin-bottom: 2em;
 }
 
+.see-more:hover {
+    background-color: #8d524b;
+    color: #f3cec7;
+}
+
+.productdetails {
+    text-align: center;
+}
+
+.proddetails {
+    text-align: center;
+}
+
+.imgprod {
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+}
+
+.error a{
+    text-decoration: none;
+    color: #8d524b;
+}
+
+.error a:hover {
+    color: #f3cec7;
+}
+
+.gracias p {
+    text-align: center;
+}
+
+.container_home {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+picture {
+    /* display: inline-block;  comentado quedan gigantes las img, pero mobile se ve bn */
+    vertical-align: top;
+    width: 26%;
+}
+
+.about {
+    display: inline-block;
+    width: 50%;
+}
+
+.about p{
+    font-size: 0.9em;
+    color: #8d524b;
+    text-align: left;
+}
+
 
 
 footer {
     text-align: center;
-    height: 100px;
     padding: 2em;
     margin-top: 2em;
     color: #f3cec7;
     background-color: #8d524b;
 }
 
-.about p{
-    font-size: 0.9em;
-    color: #8d524b;
+footer p{
+    justify-content: center;
 }
-
 
 
 @media screen and (min-width: 1400px) {
     .about p{
         width: 80%;
     }
-  }
+}

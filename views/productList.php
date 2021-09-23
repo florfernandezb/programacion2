@@ -19,7 +19,7 @@ $productList = getProductListFromJson();
             
             <article class=" col-xxl-4 col-xl-4 col-lg-6 col-md-6  col-xs-6">
                 <div class="product-card">
-                    <picture >
+                    <picture>
                         <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
                         <img src="<?= './res/'. $source;?>" alt="<?= $product->getImageDescription();?>">
                     </picture>
