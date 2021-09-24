@@ -28,7 +28,7 @@ if(!isset($routes[$view])) {
     <div class="visually-hidden">
         <a href="#content">Saltar al contenido</a>
     </div>
-    <header class="row align-items-center">
+    <header class="row">
         <div class="col-6">
             <h1 ><a href="index.php?s=home">Hecho por Vicki</a></h1>
         </div>

@@ -10,8 +10,8 @@ $source = "$productCategory/$productImage"
 <main>
     <section class="product-details">
         <picture class="imgprod">
-            <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
-            <img src="<?= './res/'. $source;?>" alt="<?= $product->getImageDescription();?>">
+        <source srcset="<?= './res/'. $source . '.png';?>" media="(max-width:480px)">
+            <img src="<?= './res/'. $source . '.png';?>" alt="<?= $product->getImageDescription();?>">
         </picture>
             
         <div class="proddetails">

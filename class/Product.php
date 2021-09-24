@@ -14,9 +14,6 @@
     /** @var string */
     protected $category;
 
-    /** @var array */
-    protected $colors;
-
     /** @var string */
     protected $productDescription;
 
@@ -26,15 +23,17 @@
     /** @var string */
     protected $imageDescription;
 
-    // Product id's getter and setter
     /**
+     * Product id getter 
      * @return int
      */
     public function getProductId(): int
     {
         return $this->id;
     }
+
     /**
+     * Product id setter
      * @param int $id
      */
     public function setProductId(int $id): void
@@ -42,8 +41,8 @@
         $this->id = $id;
     }
 
-    // Name's getter and setter
     /**
+     * Product name getter
      * @return string
      */
     public function getName(): string
@@ -51,6 +50,7 @@
         return $this->name;
     }
     /**
+     * Product name setter
      * @param string $name
      */
     public function setName(string $name): void
@@ -58,8 +58,9 @@
         $this->name = $name;
     }
 
-    // Price's getter and setter
+   
     /**
+     * Product price getter
      * @return string
      */
     public function getPrice(): string
@@ -67,15 +68,16 @@
         return $this->price;
     }
     /**
-     * @param string $price
+     * Product price setter
+     * @param int $price
      */
     public function setPrice(string $price): void
     {
         $this->price = $price;
     }
 
-    // Category's getter and setter
     /**
+     * Product category getter
      * @return string
      */
     public function getCategory(): string

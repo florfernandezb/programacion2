@@ -6,8 +6,8 @@ $productList = getProductListFromJson();
 ?>
 <main>
     <section id="product-list">
-        <h2 class="col-12">Conocé nuestros productos</h2>
-        <div class="row align-items-center">
+        <h2>Conocé nuestros productos</h2>
+        <div class="row ">
             <?php
                 foreach($productList as $product): 
             ?>
@@ -17,11 +17,11 @@ $productList = getProductListFromJson();
                 $source = "$productCategory/$productImage"
             ?>
             
-            <article class=" col-xxl-4 col-xl-4 col-lg-6 col-md-6  col-xs-6">
+            <article class=" col-xxl-4 col-md-6 col-xs-6">
                 <div class="product-card">
                     <picture>
-                        <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
-                        <img src="<?= './res/'. $source;?>" alt="<?= $product->getImageDescription();?>">
+                        <source srcset="<?= './res/'. $source . '-mobile.png';?>" media="(max-width:480px)">
+                        <img src="<?= './res/'. $source . '.png';?>" alt="<?= $product->getImageDescription();?>">
                     </picture>
                     <div class="card-content">
                         <h3><?= $product->getName();?></h3>
