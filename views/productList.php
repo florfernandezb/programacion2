@@ -4,31 +4,35 @@ require_once __DIR__ . '/../framework/jsonProductsReader.php';
 $productList = getProductListFromJson();
 
 ?>
-<main class="main-content" id="content">
-    <section class="container">
-        <h1>Conocé nuestros productos</h1>
-        <div class="noticias-list">
-        <?php
-        foreach($productList as $product): ?>
-        <?php 
-        $productCategory = $product->getCategory();
-        $productImage = $product->getImage();
-        $source = "$productCategory/$productImage"
-        ?>
-        <article class="noticias-item">
-            <div class="noticias-item_content">
-                <h2><?= $product->getName();?></h2>
-                <p><?= $product->getPrice();?></p>
-            </div>
-            <picture class="noticias-item_imagen">
-                <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
-                <!-- TODO revisar el alt -->
-                <img src="<?= './res/'. $source;?>" alt="">
-            </picture>
-            <a href="index.php?s=productDetail&id=<?= $product->getProductId();?>"><input type="button" value="Ver más"></a>
-        </article>
-        <?php
-        endforeach; ?>
+<main>
+    <section id="product-list">
+        <h2>Conocé nuestros productos</h2>
+        <div class="row ">
+            <?php
+                foreach($productList as $product): 
+            ?>
+            <?php 
+                $productCategory = $product->getCategory();
+                $productImage = $product->getImage();
+                $source = "$productCategory/$productImage"
+            ?>
+            
+            <article class=" col-xxl-4 col-md-6 col-xs-6">
+                <div class="product-card">
+                    <picture>
+                        <source srcset="<?= './res/'. $source . '-mobile.png';?>" media="(max-width:480px)">
+                        <img src="<?= './res/'. $source . '.png';?>" alt="<?= $product->getImageDescription();?>">
+                    </picture>
+                    <div class="card-content">
+                        <h3><?= $product->getName();?></h3>
+                        <p>$<?= $product->getPrice();?></p>
+                    </div>
+                    
+                    <a href="index.php?s=productDetail&id=<?= $product->getProductId();?>"><input class="see-more" type="button" value="Ver más"></a>
+                </div>
+            </article>
+            <?php
+            endforeach; ?>
         </div>
     </section>
 </main>

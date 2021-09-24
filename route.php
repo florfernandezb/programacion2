@@ -20,5 +20,8 @@ function getRoutesSitio() {
         '404' => [
             'title' => 'Página no encontrada',
         ],
+        'gracias' => [
+            'title' => 'Gracias por tu consulta',
+        ],
     ];
 }
