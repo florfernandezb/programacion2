@@ -139,6 +139,7 @@ header div h1 a{
 
 .imgprod {
     text-align: center;
+    width: 100%;
 }
 
 .error {
@@ -167,7 +168,7 @@ header div h1 a{
 }
 
 picture {
-    /* display: inline-block;  comentado quedan gigantes las img, pero mobile se ve bn */
+    display: inline-block;
     vertical-align: top;
     width: 26%;
 }
