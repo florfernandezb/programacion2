@@ -118,9 +118,9 @@ header div h1 a{
     margin-bottom: 2em;
 }
 
-.see-more:hover {
-    background-color: #8d524b;
-    color: #f3cec7;
+.see-more:hover, form button:hover {
+    background-color: #8d524b !important;
+    color: #f3cec7 !important;
 }
 
 .product-details {
@@ -157,8 +157,17 @@ header div h1 a{
     color: #f3cec7;
 }
 
-.gracias p {
+.gracias {
     text-align: center;
+}
+
+.gracias a{
+    color: #8d524b;
+    text-decoration: none;
+}
+
+.gracias a:hover {
+    color: #f3cec7;
 }
 
 .container_home {
