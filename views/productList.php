@@ -26,7 +26,7 @@ $productList = getProductListFromJson();
                         <p>$<?= $product->getPrice();?></p>
                     </div>
                     
-                    <a href="index.php?s=productDetail&id=<?= $product->getProductId();?>"><input class="see-more" type="button" value="Ver más"></a>
+                    <a href="index.php?s=productDetail&id=<?= $product->getProductId();?>"></a>
                 </div>
             </article>
             <?php

@@ -17,7 +17,7 @@
                 </div>    
         
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                    <label for="textarea" class="form-label">Comentarios:</label>
+                    <label for="comentarios" class="form-label">Comentarios:</label>
                     <textarea name="comentarios" class="form-control" id="comentarios" cols="30" rows="5"></textarea>
                 </div>
             </div>
