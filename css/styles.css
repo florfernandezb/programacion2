@@ -129,17 +129,17 @@ header div h1 a{
     margin-top: 30px;
 }
 
-.proddetails {
+.prod-details {
     text-align: left;
     width: 46%;
 }
 
-.proddetails h2 {
+.prod-details h2 {
     text-align: left;
     margin-left: 0;
 }
 
-.imgprod {
+.img-prod {
     text-align: center;
     width: 50%;
 }
@@ -228,11 +228,11 @@ legend {
     .product-details {
         display: unset;
     }   
-    .proddetails {
+    .prod-details {
         width: 100%;
         text-align: center;    
     }
-    .imgprod {
+    .img-prod {
         width: 100%;
         display: inline-block;
     }

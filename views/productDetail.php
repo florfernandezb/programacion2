@@ -8,12 +8,12 @@ $productImage = $product->getImage();
 ?>
 <main>
     <section class="product-details">
-        <picture class="imgprod">
-        <source srcset="<?= './res/'. $productCategory .'/'. $productImage . '.png';?>" media="(max-width:480px)">
+        <picture class="img-prod">
+            <source srcset="<?= './res/'. $productCategory .'/'. $productImage . '.png';?>" media="(max-width:480px)">
             <img src="<?= './res/'. $productCategory .'/'. $productImage . '.png';?>" alt="<?= $product->getImageDescription();?>">
         </picture>
             
-        <div class="proddetails">
+        <div class="prod-details">
             <h2><?= $product->getName();?></h2>
             <p>Precio: $<?= $product->getPrice();?></p>
             <p>Descripcion: <?= $product->getProductDescription();?></p>    

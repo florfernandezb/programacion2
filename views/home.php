@@ -1,4 +1,4 @@
-<main clas="home">
+<main>
     <h2>Sobre mí</h2>
     <section class="container_home">
         <div class="about">
