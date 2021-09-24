@@ -92,8 +92,9 @@
         $this->category = $category;
     }
 
-    // Product Description's getter and setter
+    
     /**
+     * Product description getter
      * @return string
      */
     public function getProductDescription(): string
@@ -101,6 +102,7 @@
         return $this->productDescription;
     }
     /**
+     * Product description setter
      * @param string $productDescription
      */
     public function setProductDescription(string $productDescription): void
@@ -108,8 +110,9 @@
         $this->productDescription = $productDescription;
     }
 
-     // Image's getter and setter
+    
     /**
+     * Product image getter
      * @return string
      */
     public function getImage(): string
@@ -117,6 +120,7 @@
         return $this->image;
     }
     /**
+     * Product image setter
      * @param string $image
      */
     public function setImage(string $image): void
@@ -124,8 +128,8 @@
         $this->image = $image;
     }
 
-     // Image description's getter and setter
     /**
+     * Image description getter
      * @return string
      */
     public function getImageDescription(): string
@@ -134,6 +138,7 @@
         return $this->imageDescription;
     }
     /**
+     * Image description setter
      * @param string $imageDescription
      */
     public function setImageDescription(string $imageDescription): void
@@ -142,6 +147,10 @@
         $this->imageDescription = $imageDescription;
     }
 
+    /**
+     * Parse the array into an object of type product
+     * @param array $json
+     */
     public function parseDataFromArray(array $data) {
         $this->setProductId($data['id']);
         $this->setName($data['name']);

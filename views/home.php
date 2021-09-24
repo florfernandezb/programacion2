@@ -13,7 +13,6 @@
         </div>
 
         <picture>
-            <source srcset="./res/vicki.jpg" media="all and (min-width: 46.875em)">
             <img src="./res/vicki.jpg" alt="Imagen de Vicki, la dueña de Hecho por Vicki, sosteniendo una fuente con el logo de la empresa">
         </picture>
     </section>

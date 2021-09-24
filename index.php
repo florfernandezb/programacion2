@@ -33,8 +33,12 @@ if(!isset($routes[$view])) {
             <h1 ><a href="index.php?s=home">Hecho por Vicki</a></h1>
         </div>
         
-        <nav class="col-6 navbar">    
-            <ul >
+        <nav id="nav" class="col-6 navbar">
+            <ul id="open-close">
+                <li class="open"><a href="#nav">Abrir</a></li>
+                <li class="close"><a href="#">Cerrar</a></li>
+            </ul>    
+            <ul id="menu">
                 <li ><a  href="index.php?s=home">Home</a></li>
                 <li ><a  href="index.php?s=productList">Productos</a></li>
                 <li ><a  href="index.php?s=formContacto">Contacto</a></li>
