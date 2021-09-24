@@ -58,7 +58,6 @@
         $this->name = $name;
     }
 
-   
     /**
      * Product price getter
      * @return string
@@ -92,7 +91,6 @@
         $this->category = $category;
     }
 
-    
     /**
      * Product description getter
      * @return string
@@ -101,6 +99,7 @@
     {
         return $this->productDescription;
     }
+
     /**
      * Product description setter
      * @param string $productDescription
@@ -110,7 +109,6 @@
         $this->productDescription = $productDescription;
     }
 
-    
     /**
      * Product image getter
      * @return string
@@ -119,6 +117,7 @@
     {
         return $this->image;
     }
+
     /**
      * Product image setter
      * @param string $image
@@ -137,6 +136,7 @@
 
         return $this->imageDescription;
     }
+
     /**
      * Image description setter
      * @param string $imageDescription
@@ -148,7 +148,7 @@
     }
 
     /**
-     * Parse the array into an object of type product
+     * Receives an array and parse it to an object of type * Product
      * @param array $json
      */
     public function parseDataFromArray(array $data) {

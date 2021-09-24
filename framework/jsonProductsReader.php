@@ -1,6 +1,7 @@
 <?php
 /**
- * Get products from json 
+ * Gets products from json and returns an array of 
+ * Product 
  *
  * @return Product[]
  */
@@ -20,7 +21,6 @@ function getProductListFromJson(): array {
 
     return $products;
 }
-
 
 /**
  * Get a product data by id
