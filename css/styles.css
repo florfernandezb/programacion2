@@ -59,8 +59,6 @@ h2 {
     color: #16001e;
 }
 
-
-
 .product-card a {
     background-color: #16001e;
     color: #f3cec7;
@@ -80,8 +78,8 @@ header div h1 a{
 }
 
 .navbar li{
-    display: inline-block;
     margin-left: 1em;
+    list-style: none;
     color: #16001e;
 }
 
@@ -233,4 +231,52 @@ legend {
     form{
         max-width: 100vw !important;
     }
+
+    #open-close li{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    #open-close li a {
+        background: url(../res/menu.png) no-repeat;
+        background-size: cover;
+        display: inline-block;
+        margin: 10px 20px;
+        font-size: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    #menu {
+        position: absolute;
+        top: 8vh;
+        right: 1em;
+        padding: 1em;
+        background-color: #f3cec7;
+        z-index: 100;
+        display: none;
+    }
+
+    .close {
+        display: none;
+    }
+
+
+    #nav:target .close {
+        display: block;
+    }
+
+    #nav:target .open {
+        display: none;
+    }
+
+    #nav:target #menu {
+        display: block;
+    }
+
+    .navbar li{
+        margin-left: 0;
+    }
+    
 }
