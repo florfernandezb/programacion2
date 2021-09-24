@@ -8,7 +8,7 @@ $productImage = $product->getImage();
 $source = "$productCategory/$productImage"
 ?>
 <main>
-    <section id="product-detail" class="productdetails">
+    <section class="product-details">
         <picture class="imgprod">
             <source srcset="<?= './res/'. $source;?>" media="all and (min-width: 46.875em)">
             <img src="<?= './res/'. $source;?>" alt="<?= $product->getImageDescription();?>">

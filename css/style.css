@@ -22,6 +22,10 @@ body {
     margin: auto;
 }
 
+main {
+    min-height: 60vh;
+}
+
 #product-list {
     width: 90%;
     margin: auto;
@@ -129,21 +133,33 @@ header div h1 a{
     color: #f3cec7;
 }
 
-.productdetails {
+.product-details {
+    display: flex;
     text-align: center;
+    margin-top: 30px;
 }
 
 .proddetails {
-    text-align: center;
+    text-align: left;
+    width: 46%;
+}
+
+.proddetails h2 {
+    text-align: left;
+    margin-left: 0;
 }
 
 .imgprod {
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 
 .error {
     text-align: center;
+}
+
+.error img {
+    width: 50%;
 }
 
 .error a{
@@ -184,7 +200,9 @@ picture {
     text-align: left;
 }
 
+.about img {
 
+}
 
 footer {
     text-align: center;
@@ -192,6 +210,9 @@ footer {
     margin-top: 2em;
     color: #f3cec7;
     background-color: #8d524b;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer p{
@@ -202,5 +223,21 @@ footer p{
 @media screen and (min-width: 1400px) {
     .about p{
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product-details {
+        display: unset;
+    }   
+    .proddetails {
+        width: 100%;
+        text-align: center;    
+    }
+    .imgprod {
+        width: 100%;
+    }
+    .product-details h2 {
+        text-align: center;
     }
 }
