@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * Get array of navigation routes
  * @return string[][]
  */
 function getRoutesSitio() {
